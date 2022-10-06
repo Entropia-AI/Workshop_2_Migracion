@@ -6,4 +6,4 @@ seaborn
 emoji
 ipywidgets
 pysentimiento
-
+ax-platform
