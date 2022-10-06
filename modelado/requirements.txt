@@ -1,12 +1,9 @@
 pandas
 scikit-learn
 transformers
-sentencepiece
 matplotlib
 seaborn
 emoji
 ipywidgets
 pysentimiento
-sadice
-ax-platform
 
