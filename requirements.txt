@@ -7,3 +7,4 @@ emoji
 ipywidgets
 pysentimiento
 ax-platform
+plotly
