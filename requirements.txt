@@ -8,3 +8,6 @@ ipywidgets
 pysentimiento
 ax-platform
 plotly
+bertopic
+Unidecode
+nltk
