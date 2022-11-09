@@ -1,0 +1,12 @@
+Los campos más importantes son:
+- **id**: Identificador unico de cada tweet
+- **conversation_id**: 
+- **created_at**: 
+- **text**: 
+- **possibly_sensitive**: 
+- **lang**: 
+- **source**: 
+- **geo**: 
+- **author_id**: 
+- **author**: 
+- **public_metrics**: retweet_count, reply_count, like_count, quote_count
