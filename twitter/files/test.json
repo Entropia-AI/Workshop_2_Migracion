@@ -1,12 +1,227 @@
-Los campos más importantes son:
-- **id**: Identificador unico de cada tweet
-- **conversation_id**: 
-- **created_at**: 
-- **text**: 
-- **possibly_sensitive**: 
-- **lang**: 
-- **source**: 
-- **geo**: 
-- **author_id**: 
-- **author**: 
-- **public_metrics**: retweet_count, reply_count, like_count, quote_count
+{
+    "entities": {
+        "mentions": [{
+            "start": 3,
+            "end": 12,
+            "username": "Miquel_R",
+            "id": "247888588",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "start": 0,
+                        "end": 23,
+                        "url": "https://t.co/iEmNLq9kA0",
+                        "expanded_url": "https://miquelramos.me",
+                        "display_url": "miquelramos.me"
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "start": 126,
+                        "end": 149,
+                        "url": "https://t.co/xhVhrVdPXz",
+                        "expanded_url": "http://crimenesdeodio.info",
+                        "display_url": "crimenesdeodio.info"
+                    }],
+                    "mentions": [{
+                        "start": 97,
+                        "end": 111,
+                        "username": "Capitan_Swing"
+                    }]
+                }
+            },
+            "protected": false,
+            "location": "València",
+            "name": "Miquel Ramos",
+            "pinned_tweet_id": "1585532023392854017",
+            "url": "https://t.co/iEmNLq9kA0",
+            "verified": true,
+            "description": "Periodista. La Marea, Público, El Salto. Col·laborador a Cuatro Al Día. Autor d''Antifascistas' (@Capitan_Swing) i coautor de https://t.co/xhVhrVdPXz",
+            "public_metrics": {
+                "followers_count": 139873,
+                "following_count": 6473,
+                "tweet_count": 63815,
+                "listed_count": 784
+            },
+            "profile_image_url": "https://pbs.twimg.com/profile_images/1465432440080580610/KsRASpNh_normal.jpg",
+            "created_at": "2011-02-05T19:55:23.000Z"
+        }],
+        "annotations": [{
+            "start": 33,
+            "end": 47,
+            "probability": 0.6699,
+            "type": "Place",
+            "normalized_text": "Mogán condecora"
+        }]
+    },
+    "public_metrics": {
+        "retweet_count": 408,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+    },
+    "edit_history_tweet_ids": ["1590222327970959363"],
+    "conversation_id": "1590222327970959363",
+    "possibly_sensitive": false,
+    "created_at": "2022-11-09T05:58:42.000Z",
+    "text": "RT @Miquel_R: El Ayuntamiento de Mogán condecora a uno de los policías condenados por torturar a un migrante senegalés .  https://t.co/VzqQ…",
+    "id": "1590222327970959363",
+    "referenced_tweets": [{
+        "type": "retweeted",
+        "id": "1590121230828711937",
+        "entities": {
+            "mentions": [{
+                "start": 136,
+                "end": 143,
+                "username": "Cahora",
+                "id": "74674548",
+                "entities": {
+                    "url": {
+                        "urls": [{
+                            "start": 0,
+                            "end": 23,
+                            "url": "https://t.co/HgfGymccah",
+                            "expanded_url": "http://www.canariasahora.es",
+                            "display_url": "canariasahora.es"
+                        }]
+                    },
+                    "description": {
+                        "urls": [{
+                            "start": 64,
+                            "end": 87,
+                            "url": "https://t.co/92I88bRTeh",
+                            "expanded_url": "http://t.me/canariasahora",
+                            "display_url": "t.me/canariasahora"
+                        }]
+                    }
+                },
+                "protected": false,
+                "location": "Islas Canarias",
+                "name": "Canarias Ahora",
+                "pinned_tweet_id": "1461663170255282177",
+                "url": "https://t.co/HgfGymccah",
+                "verified": true,
+                "description": "El primer periódico digital de Canarias.\n\nSíguenos en Telegram: https://t.co/92I88bRTeh",
+                "public_metrics": {
+                    "followers_count": 103450,
+                    "following_count": 329,
+                    "tweet_count": 151589,
+                    "listed_count": 884
+                },
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1501471604873781258/hCqE0WQY_normal.jpg",
+                "created_at": "2009-09-16T07:12:49.000Z"
+            }],
+            "urls": [{
+                "start": 108,
+                "end": 131,
+                "url": "https://t.co/VzqQBg8iND",
+                "expanded_url": "https://www.eldiario.es/1_93eb99?utm_campaign=botonera-share&utm_medium=social&utm_source=twitter",
+                "display_url": "eldiario.es/1_93eb99?utm_c…",
+                "images": [{
+                    "url": "https://pbs.twimg.com/news_img/1590079265361502213/aEe7f0yf?format=jpg&name=orig",
+                    "width": 1200,
+                    "height": 628
+                }, {
+                    "url": "https://pbs.twimg.com/news_img/1590079265361502213/aEe7f0yf?format=jpg&name=150x150",
+                    "width": 150,
+                    "height": 150
+                }],
+                "status": 200,
+                "title": "El Ayuntamiento de Mogán condecora a uno de los policías condenados por torturar a un migrante senegalés",
+                "description": "También ha recibido el distintivo el agente Francisco Artiles, ya jubilado y apodado en el municipio como 'Harry el Sucio', que en diciembre de 2014 fue condenado a diez meses de prisión por apuntar con su pistola reglamentaria a tres ciudadanos",
+                "unwound_url": "https://www.eldiario.es/canariasahora/politica/ayuntamiento-mogan-condecora-policias-condenados-torturar-migrante-senegales_1_9694105.html"
+            }],
+            "annotations": [{
+                "start": 19,
+                "end": 33,
+                "probability": 0.8341,
+                "type": "Place",
+                "normalized_text": "Mogán condecora"
+            }]
+        },
+        "public_metrics": {
+            "retweet_count": 408,
+            "reply_count": 12,
+            "like_count": 310,
+            "quote_count": 8
+        },
+        "edit_history_tweet_ids": ["1590121230828711937"],
+        "conversation_id": "1590121230828711937",
+        "possibly_sensitive": false,
+        "created_at": "2022-11-08T23:16:59.000Z",
+        "text": "El Ayuntamiento de Mogán condecora a uno de los policías condenados por torturar a un migrante senegalés .  https://t.co/VzqQBg8iND via @Cahora",
+        "author_id": "247888588",
+        "lang": "es",
+        "source": "Twitter for Android",
+        "reply_settings": "everyone",
+        "author": {
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "start": 0,
+                        "end": 23,
+                        "url": "https://t.co/iEmNLq9kA0",
+                        "expanded_url": "https://miquelramos.me",
+                        "display_url": "miquelramos.me"
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "start": 126,
+                        "end": 149,
+                        "url": "https://t.co/xhVhrVdPXz",
+                        "expanded_url": "http://crimenesdeodio.info",
+                        "display_url": "crimenesdeodio.info"
+                    }],
+                    "mentions": [{
+                        "start": 97,
+                        "end": 111,
+                        "username": "Capitan_Swing"
+                    }]
+                }
+            },
+            "protected": false,
+            "location": "València",
+            "name": "Miquel Ramos",
+            "pinned_tweet_id": "1585532023392854017",
+            "id": "247888588",
+            "url": "https://t.co/iEmNLq9kA0",
+            "username": "Miquel_R",
+            "verified": true,
+            "description": "Periodista. La Marea, Público, El Salto. Col·laborador a Cuatro Al Día. Autor d''Antifascistas' (@Capitan_Swing) i coautor de https://t.co/xhVhrVdPXz",
+            "public_metrics": {
+                "followers_count": 139873,
+                "following_count": 6473,
+                "tweet_count": 63815,
+                "listed_count": 784
+            },
+            "profile_image_url": "https://pbs.twimg.com/profile_images/1465432440080580610/KsRASpNh_normal.jpg",
+            "created_at": "2011-02-05T19:55:23.000Z"
+        }
+    }],
+    "author_id": "963033948824719360",
+    "lang": "es",
+    "source": "Twitter Web App",
+    "reply_settings": "everyone",
+    "author": {
+        "protected": false,
+        "name": "Florencio Diaz",
+        "id": "963033948824719360",
+        "username": "Flore_dim",
+        "verified": false,
+        "description": "",
+        "public_metrics": {
+            "followers_count": 7,
+            "following_count": 66,
+            "tweet_count": 2247,
+            "listed_count": 0
+        },
+        "profile_image_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "created_at": "2018-02-12T12:56:00.000Z"
+    },
+    "__twarc": {
+        "url": "https://api.twitter.com/2/tweets/search/all?expansions=author_id%2Cin_reply_to_user_id%2Creferenced_tweets.id%2Creferenced_tweets.id.author_id%2Centities.mentions.username%2Cattachments.poll_ids%2Cattachments.media_keys%2Cgeo.place_id&tweet.fields=attachments%2Cauthor_id%2Cconversation_id%2Ccreated_at%2Centities%2Cgeo%2Cid%2Cin_reply_to_user_id%2Clang%2Cpublic_metrics%2Ctext%2Cpossibly_sensitive%2Creferenced_tweets%2Creply_settings%2Csource%2Cwithheld&user.fields=created_at%2Cdescription%2Centities%2Cid%2Clocation%2Cname%2Cpinned_tweet_id%2Cprofile_image_url%2Cprotected%2Cpublic_metrics%2Curl%2Cusername%2Cverified%2Cwithheld&media.fields=alt_text%2Cduration_ms%2Cheight%2Cmedia_key%2Cpreview_image_url%2Ctype%2Curl%2Cwidth%2Cpublic_metrics&poll.fields=duration_minutes%2Cend_datetime%2Cid%2Coptions%2Cvoting_status&place.fields=contained_within%2Ccountry%2Ccountry_code%2Cfull_name%2Cgeo%2Cid%2Cname%2Cplace_type&start_time=2022-11-09T03%3A00%3A00%2B00%3A00&end_time=2022-11-09T06%3A00%3A00%2B00%3A00&query=migrante&max_results=500",
+        "version": "2.9.2",
+        "retrieved_at": "2022-11-09T16:29:18+00:00"
+    }
+}
