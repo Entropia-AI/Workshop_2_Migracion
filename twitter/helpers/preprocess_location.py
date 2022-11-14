@@ -276,7 +276,7 @@ def validate_author_locations(df_data):
     location_col = "author_location_processed"
 
     # Get regex from valid and invalid countries
-    df_countries = pd.read_csv(f"{config('RESOURCES_DIR')}/countries_data.csv",
+    df_countries = pd.read_csv("./resources/countries_data.csv",
                                sep='\t',
                                usecols=['ISO_2', 'ISO_3',
                                         'name_short_es', 'regex_es',
@@ -325,7 +325,7 @@ def validate_author_locations(df_data):
                                             df_data['not_useful_chars'] +
                                             df_data['in_english'])
 
-    df_data = df_data[['author_location', location_col,
+    df_data = df_data[[location_col,
                        'author_location_is_valid']]
 
     return df_data
