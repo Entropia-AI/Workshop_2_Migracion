@@ -1,0 +1,251 @@
+ISO_2	ISO_3	continent	obsolete	name_short_en	og_en_regex	name_short_es	regex_es	regex_en	regex_nationality_es
+AF	AFG	Asia		Afghanistan	afghan	Afganistán	\bafganistan\b	\bafghanistan\b	\bafgan[oa]s?\b
+AX	ALA	Europe		Aland Islands	\b(a|å)land	Islas Aland	\bislas aland\b	\baland islands\b	
+AL	ALB	Europe		Albania	albania	Albania	\balbania\b	\balbania\b	\balbanesa?\b
+DZ	DZA	Africa		Algeria	algeria	Argelia	\bargelia\b	\balgeria\b	\bargelin[oa]s?\b
+AS	ASM	Oceania		American Samoa	^(?=.*americ).*samoa	Samoa Americana	\bsamoa americana\b	\bamerican samoa\b	\bsamoan[oa]s?\b
+AD	AND	Europe		Andorra	andorra	Andorra	\bandorra\b	\bandorra\b	\bandorran[oa]s?\b
+AO	AGO	Africa		Angola	angola	Angola	\bangola\b	\bangola\b	\bangolan[oa]s?\b
+AI	AIA	America		Anguilla	anguill?a	Anguila	\banguila\b	\banguilla\b	\banguilenses?\b
+AQ	ATA	Antarctica		Antarctica	antarctica	Antártida	\bantartida\b	\bantarctica\b	
+AG	ATG	America		Antigua and Barbuda	antigua	Antigua y Barbuda	\bantigua y barbuda\b	\bantigua and barbuda\b	\bantiguan[oa]s?\b
+AR	ARG	America		Argentina	argentin	Argentina	\bargentina\b	\bargentina\b	\bargentin[oa]s?\b
+AM	ARM	Asia		Armenia	armenia	Armenia	\barmenia\b	\barmenia\b	\barmeni[oa]s?\b
+AW	ABW	America		Aruba	^(?!.*bonaire).*\baruba	Aruba	\baruba\b	\baruba\b	
+AU	AUS	Oceania		Australia	australia	Australia	\baustralia\b	\baustralia\b	\baustralian[oa]s?\b
+AT	AUT	Europe		Austria	austria	Austria	\baustria\b	\baustria\b	\baustriac[oa]s?\b
+AZ	AZE	Asia		Azerbaijan	azerbaijan	Azerbaiyán	\bazerbaiyan\b	\bazerbaijan\b	\bazerbaiyan[oa]s?\b
+BS	BHS	America		Bahamas	bahamas	Bahamas	\bbahamas\b	\bbahamas\b	\bbahamen[oa]s?\b
+BH	BHR	Asia		Bahrain	bahrain	Bahréin	\bbahrein\b	\bbahrain\b	\bbareini(?:eses)?\b
+BD	BGD	Asia		Bangladesh	bangladesh|^(?=.*east).*paki?stan	Bangladesh	\bbangladesh\b	\bbangladesh\b	\bbanglades(?:es)?\b
+BB	BRB	America		Barbados	barbados	Barbados	\bbarbados\b	\bbarbados\b	\bbarbadenses?\b
+BY	BLR	Europe		Belarus	belarus|byelo	Bielorrusia	\bbielorrusia\b	\bbelarus\b	\bbielorrus[oa]s?\b
+BE	BEL	Europe		Belgium	^(?!.*luxem).*belgium	Bélgica	\bbelgica\b	\bbelgium\b	\bbelgas?\b
+BZ	BLZ	America		Belize	belize|^(?=.*british).*honduras	Belice	\bbelice\b	\bbelize\b	\bbelicen[oa]s?\b
+BJ	BEN	Africa		Benin	benin|dahome	Benín	\bbenin\b	\bbenin\b	\bbenines(?:a|es)?\b
+BM	BMU	America		Bermuda	bermuda	Islas Bermudas	\bislas bermudas\b	\bbermuda\b	
+BT	BTN	Asia		Bhutan	bhutan	Bután	\bbutan\b	\bbhutan\b	\bbutanes(?:a|es)?\b
+BO	BOL	America		Bolivia	bolivia	Bolivia	\bbolivia\b	\bbolivia\b	\bbolivian[oa]s?\b
+BQ	BES	America		Bonaire, Saint Eustatius and Saba	^(?=.*bonaire).*eustatius|^(?=.*carib).*netherlands|\bbes.?islands	Bonaire, San Eustaquio y Saba	\bbonaire, san eustaquio y saba\b	\bbonaire, saint eustatius and saba\b	
+BA	BIH	Europe		Bosnia and Herzegovina	herzegovina|bosnia	Bosnia y Herzegovina	\bbosnia y herzegovina\b	\bbosnia and herzegovina\b	\bbotsuan[oa]s?\b
+BW	BWA	Africa		Botswana	botswana|bechuana	Botswana	\bbotswana\b	\bbotswana\b	
+BV	BVT	Antarctica		Bouvet Island	bouvet	Isla Bouvet	\bisla bouvet\b	\bbouvet island\b	
+BR	BRA	America		Brazil	brazil	Brasil	\bbrasil\b	\bbrazil\b	\bbrasilen[oa]s?\b|\bbrasiler[oa]s?\b
+IO	IOT	Africa		British Indian Ocean Territory	br.*indian.?ocean	Territorio Británico del Océano Índico	\bterritorio britanico del oceano indico\b	\bbritish indian ocean territory\b	
+VG	VGB	America		British Virgin Islands	^(?=.*\bu\.?\s?k).*virgin|^(?=.*br.*).*virgin|^(?=.*kingdom).*virgin|BVI	Islas Vírgenes Británicas	\bislas virgenes britanicas\b	\bbritish virgin islands\b	
+BN	BRN	Asia		Brunei Darussalam	brunei	Brunei Darussalam	\bbrunei darussalam\b	\bbrunei darussalam\b	\bbrunean[oa]s?\b
+BG	BGR	Europe		Bulgaria	bulgaria	Bulgaria	\bbulgaria\b	\bbulgaria\b	\bbulgar[oa]s?\b
+BF	BFA	Africa		Burkina Faso	burkina|\bfaso|upper.?volta	Burkina Faso	\bburkina faso\b	\bburkina faso\b	\bburkines(?:es)?\b
+BI	BDI	Africa		Burundi	burundi	Burundi	\bburundi\b	\bburundi\b	\bburundes(?:a|es)?\b
+CV	CPV	Africa		Cabo Verde	(cabo|cape) *verde	Cabo Verde	\bcabo verde\b	\bcabo verde\b	\bcaboverdian[oa]s?\b
+KH	KHM	Asia		Cambodia	cambodia|kampuchea|khmer|^p\.?r\.?k\.?$	Camboya	\bcamboya\b	\bcambodia\b	\bcamboyan[oa]s?\b
+CM	CMR	Africa		Cameroon	cameroon	Camerún	\bcamerun\b	\bcameroon\b	\bcamerunes(?:a|es)?\b
+CA	CAN	America		Canada	canada	Canadá	\bcanada\b	\bcanada\b	\bcanadienses?\b
+KY	CYM	America		Cayman Islands	cayman	Islas Caimán	\bislas caiman\b	\bcayman islands\b	
+CF	CAF	Africa		Central African Republic	central.?african.?rep.*	República Centroafricana	\brepublica centroafricana\b	\bcentral african republic\b	
+TD	TCD	Africa		Chad	\bchad	Chad	\bchad\b	\bchad\b	
+CL	CHL	America		Chile	\bchile	Chile	\bchile\b	\bchile\b	
+CN	CHN	Asia		China	^(?!repub)(?!taiwan)(?!hong.*kong)(?!macao).*china(?!.*hong.*kong)(?!.*macao)|^PRC$	Porcelana	\bporcelana\b	\bchina\b	
+CX	CXR	Asia		Christmas Island	christmas	Isla de Navidad	\bisla de navidad\b	\bchristmas island\b	
+CC	CCK	Asia		Cocos (Keeling) Islands	\bcocos|keeling	Islas Cocos	\bislas cocos\b	\bcocos (?:keeling)? islands\b	
+CO	COL	America		Colombia	colombia	Colombia	\bcolombia\b	\bcolombia\b	
+KM	COM	Africa		Comoros	comoro	Comoras	\bcomoras\b	\bcomoros\b	
+CG	COG	Africa		Congo Republic	^(?!.*\bdem)(?!.*\bdr)(?!.*kinshasa)(?!.*zaire)(?!.*belg)(?!.*l\w{1,2}opoldville)(?!.*free)(^rep.*).*\bcongo.*(?!.*\bdem)(?!.*\bdr).*|\bwest.*congo|^congo[,;\s]*(?!.*dem)rep.*?$|^congo$|\bcongo.*brazza.*	República del Congo	\brepublica del congo\b	\bcongo republic\b	
+CK	COK	Oceania		Cook Islands	\bcook	Islas Cook	\bislas cook\b	\bcook islands\b	
+CR	CRI	America		Costa Rica	costa.?rica	Costa Rica	\bcosta rica\b	\bcosta rica\b	
+CI	CIV	Africa		Cote d'Ivoire	.*(ivoire|ivory)	Costa de Marfil	\bcosta de marfil\b	\bcote d'ivoire\b	
+HR	HRV	Europe		Croatia	croatia|hrvatska	Croacia	\bcroacia\b	\bcroatia\b	
+CU	CUB	America		Cuba	\bcuba	Cuba	\bcuba\b	\bcuba\b	
+CW	CUW	America		Curacao	\bcura(c|ç)ao	Curazao	\bcurazao\b	\bcuracao\b	
+CY	CYP	Asia		Cyprus	cyprus	Chipre	\bchipre\b	\bcyprus\b	
+CZ	CZE	Europe		Czech Republic	^(?=.*rep).*czech.*|czechia|bohemia|.*czech.*	República Checa	\brepublica checa\b	\bczech republic\b	
+DK	DNK	Europe		Denmark	denmark	Dinamarca	\bdinamarca\b	\bdenmark\b	
+DJ	DJI	Africa		Djibouti	djibouti	Djibouti	\bdjibouti\b|\byibuti\b	\bdjibouti\b|\byibuti\b	
+DM	DMA	America		Dominica	dominica(?!n)	Dominica	\bdominica\b	\bdominica\b	
+DO	DOM	America		Dominican Republic	dominican	República Dominicana	\brepublica dominicana\b	\bdominican republic\b	
+CD	COD	Africa		DR Congo	\bdem.*congo|congo.*\bdem|congo.*\bdr|\bdr.*congo|\bd\.?r\.?c|\bd\.?r\.?o\.?c|\br\.?d\.?c|belgian.?congo|congo.?free.?state|kinshasa|zaire|l\w{1,2}opoldville|^the\ congo$|^RDC$|^DROC$|\bcongo.*dem.*	Congo	\bcongo\b	\bdr congo\b	
+EC	ECU	America		Ecuador	ecuador	Ecuador	\becuador\b	\becuador\b	
+EG	EGY	Africa		Egypt	egypt	Egipto	\begipto\b	\begypt\b	
+SV	SLV	America		El Salvador	el.?salvador	El Salvador	\bel salvador\b	\bel salvador\b	
+GQ	GNQ	Africa		Equatorial Guinea	guine.*eq|eq.*guine|^(?=.*span).*guinea	Guinea Ecuatorial	\bguinea ecuatorial\b	\bequatorial guinea\b	
+ER	ERI	Africa		Eritrea	eritrea	Eritrea	\beritrea\b	\beritrea\b	
+EE	EST	Europe		Estonia	estonia	Estonia	\bestonia\b	\bestonia\b	
+SZ	SWZ	Africa		Eswatini	swaziland|eswatini	Eswatini	\beswatini\b	\beswatini\b	
+ET	ETH	Africa		Ethiopia	ethiopia|abyssinia	Etiopía	\betiopia\b	\bethiopia\b	
+FO	FRO	Europe		Faeroe Islands	faroe|faeroe	Islas Feroe	\bislas feroe\b	\bfaeroe islands\b	
+FK	FLK	America		Falkland Islands	falkland|malvinas	Islas Malvinas	\bislas malvinas\b	\bfalkland islands\b	
+FJ	FJI	Oceania		Fiji	fiji	Fiji	\bfiji\b	\bfiji\b	
+FI	FIN	Europe		Finland	finland	Finlandia	\bfinlandia\b	\bfinland\b	
+FR	FRA	Europe		France	^(?!.*\bdep).*france|french.?republic|\bgaul	Francia	\bfrancia\b	\bfrance\b	
+GF	GUF	America		French Guiana	^(?=.*french).*guiana|guiana	Guayana Francesa	\bguayana francesa\b	\bfrench guiana\b	
+PF	PYF	Oceania		French Polynesia	french.?polynesia	Polinesia	\bpolinesia\b	\bfrench polynesia\b	
+TF	ATF	Africa		French Southern Territories	french.?southern|\bfr.*\bso.*\ban.*\b\bt	Territorios Franceses del Sur	\bterritorios franceses del sur\b	\bfrench southern territories\b	
+GA	GAB	Africa		Gabon	gabon	Gabón	\bgabon\b	\bgabon\b	
+GM	GMB	Africa		Gambia	gambia	Gambia	\bgambia\b	\bgambia\b	
+GE	GEO	Asia		Georgia	^(?!.*south).*georgia(?!.*US.*)	Georgia	\bgeorgia\b	\bgeorgia\b	
+DE	DEU	Europe		Germany	^(?!e|w)(fed)?.*germany(?!,? *e|,? *w)(,? *)(\bfed)?	Alemania	\balemania\b	\bgermany\b	
+GH	GHA	Africa		Ghana	ghana|gold.?coast	Ghana	\bghana\b	\bghana\b	
+GI	GIB	Europe		Gibraltar	gibraltar	Gibraltar	\bgibraltar\b	\bgibraltar\b	
+GR	GRC	Europe		Greece	greece|hellenic|hellas	Grecia	\bgrecia\b	\bgreece\b	
+GL	GRL	America		Greenland	greenland	Groenlandia	\bgroenlandia\b	\bgreenland\b	
+GD	GRD	America		Grenada	grenada	Granada	\bgranada\b	\bgrenada\b	
+GP	GLP	America		Guadeloupe	guadeloupe	Guadalupe	\bguadalupe\b	\bguadeloupe\b	
+GU	GUM	Oceania		Guam	\bguam	Guam	\bguam\b	\bguam\b	
+GT	GTM	America		Guatemala	guatemala	Guatemala	\bguatemala\b	\bguatemala\b	
+GG	GGY	Europe		Guernsey	guernsey	Guernsey	\bguernsey\b	\bguernsey\b	
+GN	GIN	Africa		Guinea	^(?!.*eq)(?!.*span)(?!.*bissau)(?!.*pap)(?!.*new)(?!p.*n.*).*guinea	Guinea	\bguinea\b	\bguinea\b	
+GW	GNB	Africa		Guinea-Bissau	^(.*portu).*guinea|guinea.*bissau	Guinea-Bissau	\bguinea-bissau\b	\bguinea-bissau\b	
+GY	GUY	America		Guyana	gua?yana|british.?guiana	Guyana	\bgua?yana\b	\bgu?yana\b	
+HT	HTI	America		Haiti	(ha(i|\xef|\xc3\xaf)ti)	Haití	\bhaiti\b	\bhaiti\b	
+HM	HMD	Asia		Heard and McDonald Islands	heard.*mc.*donald	Islas Heard y McDonald	\bislas heard y mcdonald\b	\bheard and mcdonald islands\b	
+HN	HND	America		Honduras	^(?!.*brit).*honduras	Honduras	\bhonduras\b	\bhonduras\b	
+HK	HKG	Asia		Hong Kong	.*hong.*kong|hksar	Hong Kong	\bhong kong\b	\bhong kong\b	
+HU	HUN	Europe		Hungary	hungary	Hungría	\bhungria\b	\bhungary\b	
+IS	ISL	Europe		Iceland	iceland	Islandia	\bislandia\b	\biceland\b	
+IN	IND	Asia		India	india(?!.*ocea)(?!na)	India	\bindia\b	\bindia\b	
+ID	IDN	Asia		Indonesia	indonesia	Indonesia	\bindonesia\b	\bindonesia\b	
+IR	IRN	Asia		Iran	\biran|persia	Irán	\biran\b	\biran\b	
+IQ	IRQ	Asia		Iraq	\biraq|mesopotamia	Irak	\birak\b	\biraq\b	
+IE	IRL	Europe		Ireland	^(?!.*north.*).*ireland	Irlanda	\birlanda\b	\bireland\b	
+IM	IMN	Europe		Isle of Man	^(?=.*isle).*\bman	Isla del hombre	\bisla del hombre\b	\bisle of man\b	
+IL	ISR	Asia		Israel	israel	Israel	\bisrael\b	\bisrael\b	
+IT	ITA	Europe		Italy	.*italy|.*italia.*	Italia	\bitalia\b	\bitaly\b	
+JM	JAM	America		Jamaica	jamaica	Jamaica	\bjamaica\b	\bjamaica\b	
+JP	JPN	Asia		Japan	japan	Japón	\bjapon\b	\bjapan\b	
+JE	JEY	Europe		Jersey	^(?!.*new).*jersey	Jersey	\bjersey\b	\bjersey\b	
+JO	JOR	Asia		Jordan	jordan	Jordán	\bjordan\b	\bjordan\b	
+KZ	KAZ	Asia		Kazakhstan	kazak	Kazajstán	\bkazajstan\b	\bkazakhstan\b	
+KE	KEN	Africa		Kenya	kenya|british.?east.?africa|east.?africa.?prot	Kenia	\bkenia\b	\bkenya\b	
+KI	KIR	Oceania		Kiribati	kiribati	Kiribati	\bkiribati\b	\bkiribati\b	
+XK	XKX	Europe		Kosovo	kosovo	Kosovo	\bkosovo\b	\bkosovo\b	
+KW	KWT	Asia		Kuwait	kuwait	Kuwait	\bkuwait\b	\bkuwait\b	
+KG	KGZ	Asia		Kyrgyz Republic	kyrgyz|kirghiz	República Kirguiza	\brepublica kirguiza\b	\bkyrgyz republic\b	
+LA	LAO	Asia		Laos	\blaos?\b	Laos	\blaos\b	\blaos\b	
+LV	LVA	Europe		Latvia	latvia	Letonia	\bletonia\b	\blatvia\b	
+LB	LBN	Asia		Lebanon	lebanon|lebanese	Líbano	\blibano\b	\blebanon\b	
+LS	LSO	Africa		Lesotho	lesotho|basuto	Lesoto	\blesoto\b	\blesotho\b	
+LR	LBR	Africa		Liberia	liberia	Liberia	\bliberia\b	\bliberia\b	
+LY	LBY	Africa		Libya	libya	Libia	\blibia\b	\blibya\b	
+LI	LIE	Europe		Liechtenstein	liechtenstein	Liechtenstein	\bliechtenstein\b	\bliechtenstein\b	
+LT	LTU	Europe		Lithuania	lithuania	Lituania	\blituania\b	\blithuania\b	
+LU	LUX	Europe		Luxembourg	^(?!.*belg).*luxem	Luxemburgo	\bluxemburgo\b	\bluxembourg\b	
+MO	MAC	Asia		Macau	.*maca(o|u)	Macao	\bmacao\b	\bmacau\b	
+MK	MKD	Europe		Macedonia	macedonia|^f\.?y\.?r\.?o\.?m\.?$	Macedonia	\bmacedonia\b	\bmacedonia\b	
+MG	MDG	Africa		Madagascar	madagascar|malagasy	Madagascar	\bmadagascar\b	\bmadagascar\b	
+MW	MWI	Africa		Malawi	malawi|nyasa	Malawi	\bmalawi\b	\bmalawi\b	
+MY	MYS	Asia		Malaysia	malaysia	Malasia	\bmalasia\b	\bmalaysia\b	
+MV	MDV	Asia		Maldives	maldive	Maldivas	\bmaldivas\b	\bmaldives\b	
+ML	MLI	Africa		Mali	\bmali\b	Mali	\bmali\b	\bmali\b	
+MT	MLT	Europe		Malta	\bmalta	Malta	\bmalta\b	\bmalta\b	
+MH	MHL	Oceania		Marshall Islands	marshall	Islas Marshall	\bislas marshall\b	\bmarshall islands\b	
+MQ	MTQ	America		Martinique	martinique	Martinica	\bmartinica\b	\bmartinique\b	
+MR	MRT	Africa		Mauritania	mauritania	Mauritania	\bmauritania\b	\bmauritania\b	
+MU	MUS	Africa		Mauritius	mauritius	Mauricio	\bmauricio\b	\bmauritius\b	
+YT	MYT	Africa		Mayotte	mayotte	Mayotte	\bmayotte\b	\bmayotte\b	
+MX	MEX	America		Mexico	^(?!.*new).*mexi(?!.*city)	México	\bmexico\b	\bmexico\b	
+FM	FSM	Oceania		Micronesia, Fed. Sts.	micronesia	Micronesia, Fed. Sts.	\bmicronesia, fed. sts.\b	\bmicronesia, fed. sts.\b	
+MD	MDA	Europe		Moldova	moldov|b(a|e)ssarabia	Moldavia	\bmoldavia\b	\bmoldova\b	
+MC	MCO	Europe		Monaco	monaco	Mónaco	\bmonaco\b	\bmonaco\b	
+MN	MNG	Asia		Mongolia	mongolia	Mongolia	\bmongolia\b	\bmongolia\b	
+ME	MNE	Europe		Montenegro	^(?!.*serbia).*montenegro	Montenegro	\bmontenegro\b	\bmontenegro\b	
+MS	MSR	America		Montserrat	montserrat	Montserrat	\bmontserrat\b	\bmontserrat\b	
+MA	MAR	Africa		Morocco	morocco|\bmaroc	Marruecos	\bmarruecos\b	\bmorocco\b	
+MZ	MOZ	Africa		Mozambique	mozambique	Mozambique	\bmozambique\b	\bmozambique\b	
+MM	MMR	Asia		Myanmar	myanmar|burma	Myanmar	\bmyanmar\b	\bmyanmar\b	
+	NAM	Africa		Namibia	namibia	Namibia	\bnamibia\b	\bnamibia\b	
+NR	NRU	Oceania		Nauru	nauru	Nauru	\bnauru\b	\bnauru\b	
+NP	NPL	Asia		Nepal	nepal	Nepal	\bnepal\b	\bnepal\b	
+NL	NLD	Europe		Netherlands	^(?!.*\bant)(?!.*\bcarib).*netherlands	Países Bajos	\bpaises bajos\b	\bnetherlands\b	
+NC	NCL	Oceania		New Caledonia	new.?caledonia	Nueva Caledonia	\bnueva caledonia\b	\bnew caledonia\b	
+NZ	NZL	Oceania		New Zealand	(new|n).*zealand	Nueva Zelanda	\bnueva zelanda\b	\bnew zealand\b	
+NI	NIC	America		Nicaragua	nicaragua	Nicaragua	\bnicaragua\b	\bnicaragua\b	
+NE	NER	Africa		Niger	\bniger(?!ia)	Níger	\bniger\b	\bniger\b	
+NG	NGA	Africa		Nigeria	nigeria	Nigeria	\bnigeria\b	\bnigeria\b	
+NU	NIU	Oceania		Niue	niue	Niue	\bniue\b	\bniue\b	
+NF	NFK	Oceania		Norfolk Island	norfolk.*is	Isla Norfolk	\bisla norfolk\b	\bnorfolk island\b	
+KP	PRK	Asia		North Korea	^(?=.*dem).*\bkorea|^(?=.*peo).*\bkorea|^(?=.*nor).*\bkorea|\bd\.?p\.?r\.|.*dpr.*|^(?=.*n\.).*\bkorea	Corea del Norte	\bcorea(?: del norte)\b	\bnorth korea\b	
+MP	MNP	Oceania		Northern Mariana Islands	mariana	Islas Marianas del Norte	\bislas marianas del norte\b	\bnorthern mariana islands\b	
+NO	NOR	Europe		Norway	norway	Noruega	\bnoruega\b	\bnorway\b	
+OM	OMN	Asia		Oman	\boman|trucial	Omán	\boman\b	\boman\b	
+PK	PAK	Asia		Pakistan	^(?!.*east).*paki?stan	Pakistán	\bpakistan\b	\bpakistan\b	
+PW	PLW	Oceania		Palau	palau	Palau	\bpalau\b	\bpalau\b	
+PS	PSE	Asia		Palestine	palestin|\bgaza|west.?bank	Palestina	\bpalestina\b	\bpalestine\b	
+PA	PAN	America		Panama	panama	Panamá	\bpanama\b	\bpanama\b	
+PG	PNG	Oceania		Papua New Guinea	\bp.*\bn.*\bguin.*|^p\.?n\.?g\.?$|new.?guinea	Papúa Nueva Guinea	\bpapua nueva guinea\b	\bpapua new guinea\b	
+PY	PRY	America		Paraguay	paraguay	Paraguay	\bparaguay\b	\bparaguay\b	
+PE	PER	America		Peru	peru	Perú	\bperu\b	\bperu\b	
+PH	PHL	Asia		Philippines	philippines	Filipinas	\bfilipinas\b	\bphilippines\b	
+PN	PCN	Oceania		Pitcairn	pitcairn	Pitcairn	\bpitcairn\b	\bpitcairn\b	
+PL	POL	Europe		Poland	poland	Polonia	\bpolonia\b	\bpoland\b	
+PT	PRT	Europe		Portugal	portugal|portuguese	Portugal	\bportugal\b	\bportugal\b	
+PR	PRI	America		Puerto Rico	puerto.?rico	Puerto Rico	\bpuerto rico\b	\bpuerto rico\b	
+QA	QAT	Asia		Qatar	qatar	Katar	\bkatar\b	\bqatar\b	
+RE	REU	Africa		Reunion	reunion|réunion	Reunión	\breunion\b	\breunion\b	
+RO	ROU	Europe		Romania	r(o|u|ou)mania	Rumanía	\brumania\b	\bromania\b	
+RU	RUS	Europe		Russia	\brussia	Rusia	\brusia\b	\brussia\b	
+RW	RWA	Africa		Rwanda	rwanda	Ruanda	\bruanda\b	\brwanda\b	
+MF	MAF	America		Saint-Martin	^(?!.*maarten)(?!.*saba)(?!.*dutch).*martin\b	San Martín	\bsan martin\b	\bsaint-martin\b	
+WS	WSM	Oceania		Samoa	^(?!.*amer.*)samoa|(\bindep.*samoa)|^west.*samoa	Samoa	\bsamoa\b	\bsamoa\b	
+SM	SMR	Europe		San Marino	san.?marino	San Marino	\bsan marino\b	\bsan marino\b	
+ST	STP	Africa		Sao Tome and Principe	tome|tomé	Santo Tomé y Príncipe	\bsanto tome y principe\b	\bsao tome and principe\b	
+SA	SAU	Asia		Saudi Arabia	\bsa\w*.?arabia	Arabia Saudita	\barabia saudita\b	\bsaudi arabia\b	
+SN	SEN	Africa		Senegal	senegal	Senegal	\bsenegal\b	\bsenegal\b	
+RS	SRB	Europe		Serbia	^(?!.*monte).*serbia.*	Serbia	\bserbia\b	\bserbia\b	
+SC	SYC	Africa		Seychelles	seychell	Seychelles	\bseychelles\b	\bseychelles\b	
+SL	SLE	Africa		Sierra Leone	sierra	Sierra Leona	\bsierra leona\b	\bsierra leone\b	
+SG	SGP	Asia		Singapore	singapore	Singapur	\bsingapur\b	\bsingapore\b	
+SX	SXM	America		Sint Maarten	^(?!.*martin)(?!.*saba).*maarten|dutch.*martin|martin.*dutch	Sint Maarten	\bsint maarten\b	\bsint maarten\b	
+SK	SVK	Europe		Slovakia	^(?!.*cze).*slovak	Eslovaquia	\beslovaquia\b	\bslovakia\b	
+SI	SVN	Europe		Slovenia	slovenia	Eslovenia	\beslovenia\b	\bslovenia\b	
+SB	SLB	Oceania		Solomon Islands	solomon	Islas Salomón	\bislas salomon\b	\bsolomon islands\b	
+SO	SOM	Africa		Somalia	somali	Somalia	\bsomalia\b	\bsomalia\b	
+ZA	ZAF	Africa		South Africa	\bs(\.|outh)(?!.*sahar).*africa|^r\.?s\.?a\.?$	Sudáfrica	\bsudafrica|sur\s?africa\b	\bsouth africa\b	
+GS	SGS	Antarctica		South Georgia and South Sandwich Is.	south.?georgia|sandwich	Islas Georgias del Sur y Sandwich del Sur	\bislas georgias del sur y sandwich del sur\b	\bsouth georgia and south sandwich is.\b	
+KR	KOR	Asia		South Korea	^(?!.*dem)(?!.*peo)(?!.*nor)(?!.*n\.)(?!.*dpr)(?!d\.p\.r).*\bkorea|\br\.?o\.?k\b	Corea del Sur	\bcorea(?: del sur)\b	\bsouth korea\b	
+SS	SSD	Africa		South Sudan	\bs\w*.?sudan	Sudán del Sur	\bsudan del sur\b	\bsouth sudan\b	
+ES	ESP	Europe		Spain	spain	España	\bespana\b	\bspain\b	
+LK	LKA	Asia		Sri Lanka	sri.?lanka|ceylon	Sri Lanka	\bsri lanka\b	\bsri lanka\b	
+BL	BLM	America		St. Barths	barth|barts	San Bartolomé	\bsan bartolome\b	\bst. barths\b	
+SH	SHN	Africa		St. Helena	helena	Santa Elena	\bsanta elena\b	\bst. helena\b	
+KN	KNA	America		St. Kitts and Nevis	kitts|\bnevis	San Cristóbal y Nieves	\bsan cristobal y nieves\b	\bst. kitts and nevis\b	
+LC	LCA	America		St. Lucia	\blucia	Santa Lucía	\bsanta lucia\b	\bst. lucia\b	
+PM	SPM	America		St. Pierre and Miquelon	miquelon	San Pedro y Miquelón	\bsan pedro y miquelon\b	\bst. pierre and miquelon\b	
+VC	VCT	America		St. Vincent and the Grenadines	vincent	San Vicente y las Granadinas	\bsan vicente y las granadinas\b	\bst. vincent and the grenadines\b	
+SD	SDN	Africa		Sudan	^(?!.*\bs(?!u)).*sudan	Sudán	\bsudan\b	\bsudan\b	
+SR	SUR	America		Suriname	surinam|dutch.?guiana	Surinam	\bsurinam\b	\bsuriname\b	
+SJ	SJM	Europe		Svalbard and Jan Mayen Islands	^(?!norway).*svalbard	Islas Svalbard y Jan Mayen	\bislas svalbard y jan mayen\b	\bsvalbard and jan mayen islands\b	
+SE	SWE	Europe		Sweden	swedish|sweden(?!.*except)	Suecia	\bsuecia\b	\bsweden\b	
+CH	CHE	Europe		Switzerland	switz|swiss	Suiza	\bsuiza\b	\bswitzerland\b	
+SY	SYR	Asia		Syria	syria	Siria	\bsiria\b	\bsyria\b	
+TW	TWN	Asia		Taiwan	.*taiwan|.*taipei|.*formosa|^(?!.*\bdem)(?!.*\bpe)(?!.*\bdr)(^rep.*).*\bchina.*(?!.*\bdem.*)(?!\bpe.*)(?!.*\bdr.*).*|^ROC$|^taiwan r\.?o\.?c\.?$	Taiwán	\btaiwan\b	\btaiwan\b	
+TJ	TJK	Asia		Tajikistan	tajik	Tayikistán	\btayikistan\b	\btajikistan\b	
+TZ	TZA	Africa		Tanzania	tanzania(?!: zan.*)	Tanzania	\btanzania\b	\btanzania\b	
+TH	THA	Asia		Thailand	thailand|\bsiam	Tailandia	\btailandia\b	\bthailand\b	
+TL	TLS	Asia		Timor-Leste	^(?=.*leste).*timor|^(?=.*east).*timor	Timor-Leste	\btimor oriental\b	\btimor-leste\b	
+TG	TGO	Africa		Togo	togo	Togo	\btogo\b	\btogo\b	
+TK	TKL	Oceania		Tokelau	tokelau	Tokelau	\btokelau\b	\btokelau\b	
+TO	TON	Oceania		Tonga	tonga	Tonga	\btonga\b	\btonga\b	
+TT	TTO	America		Trinidad and Tobago	trinidad|tobago	Trinidad y Tobago	\btrinidad y tobago\b	\btrinidad and tobago\b	
+TN	TUN	Africa		Tunisia	tunisia	Túnez	\btunez\b	\btunisia\b	
+TR	TUR	Asia		Turkey	turkey	Turquía	\bturquia\b	\bturkey\b	
+TM	TKM	Asia		Turkmenistan	turk-?men	Turkmenistán	\bturkmenistan\b	\bturkmenistan\b	
+TC	TCA	America		Turks and Caicos Islands	turks	Islas Turcas y Caicos	\bislas turcas y caicos\b	\bturks and caicos islands\b	
+TV	TUV	Oceania		Tuvalu	tuvalu	Tuvalu	\btuvalu\b	\btuvalu\b	
+UG	UGA	Africa		Uganda	uganda	Uganda	\buganda\b	\buganda\b	
+UA	UKR	Europe		Ukraine	ukrain	Ucrania	\bucrania\b	\bukraine\b	
+AE	ARE	Asia		United Arab Emirates	emirates|^u\.?a\.?e\.?$|united.?arab.?em	Emiratos Árabes 	\bemiratos arabes \b	\bunited arab emirates\b	
+GB	GBR	Europe		United Kingdom	.*(united.?kingdom|britain|^u\.?k\.?$|gb)	Reino Unido	\breino unido\b	\bunited kingdom\b	
+US	USA	America		United States	^(?!.*islands).*united.?states|^u\.?s\.?a\.?$|^u\.?s\.?$	Estados Unidos	\bestados unidos\b	\bunited states\b	
+UM	UMI	Oceania		United States Minor Outlying Islands	minor.?outlying.?is	Islas menores alejadas de los Estados Unidos	\bislas menores alejadas de los estados unidos\b	\bunited states minor outlying islands\b	
+VI	VIR	America		United States Virgin Islands	^(?=.*\bu\.?\s?s).*virgin|^(?=.*states).*virgin	Islas Vírgenes de los Estados Unidos	\bislas virgenes de los estados unidos\b	\bunited states virgin islands\b	
+UY	URY	America		Uruguay	uruguay	Uruguay	\buruguay\b	\buruguay\b	
+UZ	UZB	Asia		Uzbekistan	uzbek	Uzbekistán	\buzbekistan\b	\buzbekistan\b	
+VU	VUT	Oceania		Vanuatu	vanuatu|new.?hebrides	Vanuatu	\bvanuatu\b	\bvanuatu\b	
+VA	VAT	Europe		Vatican	holy.?see|vatican|papal.?st	Vaticano	\bvaticano\b	\bvatican\b	
+VE	VEN	America		Venezuela	venezuela	Venezuela	\bvenezuela\b	\bvenezuela\b	
+VN	VNM	Asia		Vietnam	^((?!n|s|.*republic)|(?=.*socialist)).*viet.?nam(?! *,? *n| *,? *s)	Vietnam	\bvietnam\b	\bvietnam\b	
+WF	WLF	Oceania		Wallis and Futuna Islands	futuna|wallis	Islas Wallis y Futuna	\bislas wallis y futuna\b	\bwallis and futuna islands\b	
+EH	ESH	Africa		Western Sahara	\bw.*sahara	Sahara Occidental	\bsahara occidental\b	\bwestern sahara\b	
+YE	YEM	Asia		Yemen	yemen	Yemen	\byemen\b	\byemen\b	
+ZM	ZMB	Africa		Zambia	zambia|northern.?rhodesia	Zambia	\bzambia\b	\bzambia\b	
+ZW	ZWE	Africa		Zimbabwe	zimbabwe|^(?!.*northern).*rhodesia	Zimbabue	\bzimbabue\b	\bzimbabwe\b	
